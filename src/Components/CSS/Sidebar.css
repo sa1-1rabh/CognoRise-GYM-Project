@@ -1,0 +1,27 @@
+.sidebar-container{
+  display: flex;
+  height: 100vh;
+  transition: width 1s ease-in;
+}
+
+.sidebar-heading{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sidebar-element{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.link-active{
+  color: red;
+}
+.not-active{
+  color: green;
+}

@@ -1,0 +1,52 @@
+a:link{
+  color: inherit;
+}
+a:visited{
+  color: inherit;
+}
+.footer-container{
+  background-color: #4a565945;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container .lower{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lower .lower-left{
+  font-size: 17px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lower-left ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-decoration: underline;
+}
+
+.lower .lower-right{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  width: 200px;
+  font-size: 30px;
+}
+.insta,.twitter,.youtube{
+  cursor: pointer;
+}
+.insta :hover{
+  color: #ea2cdd;
+}
+.youtube :hover{
+  color: red;
+}
+.twitter :hover{
+  color: white;
+}

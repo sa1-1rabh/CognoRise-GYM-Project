@@ -1,0 +1,60 @@
+.input-box{
+  position: relative;
+  padding: 10px;
+}
+.input-name{
+  background-color: #e9e9e9;
+  padding: 16px;
+  padding-bottom: 0;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+  transition: 0.1s ease-in;
+}
+.input-name:focus{
+  background-color: #c4c4c4;
+  padding: 18px;
+  padding-bottom: 0;
+}
+
+.input-name-label{
+  color: black;
+  text-decoration: underline;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  left: 0;
+  padding: 0px 20px;
+}
+
+.submit-button{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+
+.form-heading{
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-decoration:underline;
+}
+
+.register-container{
+  flex: 1;
+  display: flex;
+  padding-left: 100px;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.form-submitted{
+  background-color: #2eb963;
+  font-family: sans-serif;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+}

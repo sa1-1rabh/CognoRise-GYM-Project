@@ -1,0 +1,14 @@
+.app-container{
+  display: flex;
+}
+.right-container{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.outlet-container{
+  flex: 1;
+  display: flex;
+}
