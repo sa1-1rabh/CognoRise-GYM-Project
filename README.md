@@ -1,5 +1,5 @@
 Created Project using React Vite Library.
-To run project -> 
+To run project -> [Do "npm install" to install the dependencies]
 1) Copy all the files in a folder in your local computer (say "Project").
 2) Open the "Project" Folder in VS Code.
 3) Create a new Terminal and make your current working directory as "/Project"
